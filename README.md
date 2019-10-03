@@ -1,20 +1,21 @@
 # SKB
 Management System
 
-* 1. Extract the archive and put it in the folder you want
+1. Extract the archive and put it in the folder you want
 
-* 2. Prepare your .env file there with database connection and other settings
+2. Prepare your .env file there with database connection and other settings
 
-* 3. Run composer install command
+3. Run composer install command
 
-* 4. Run php artisan migrate --seed command.
-* Notice: seed is important, because it will create the first admin user for you.
+4. Run php artisan migrate --seed command.
 
-* 5. Run php artisan key:generate command.
+Notice: use seed to create the admin account.
 
-* 6. Run php artisan storage:link command.
+5. Run php artisan key:generate command.
 
-* And that's it, go to your domain and login:
+6. Run php artisan storage:link command.
 
-* Username:	admin@admin.com
-* Password:	password
+*And that's it, go to your domain and login:
+
+Username:	admin@admin.com
+Password:	password
